@@ -1,11 +1,12 @@
 import React from 'react';
-import SocialButton from './SocialButton';
+import TwitterButton from './TwitterButton';
+import FacebookButton from './FacebookButton';
 
-function Networks () {
+function Networks  () {
     return (
       <div>
-        <SocialButton type="Facebook"/>
-        <SocialButton type="Twitter"/>
+        <TwitterButton/>
+        <FacebookButton/>
       </div>
     );
 }
