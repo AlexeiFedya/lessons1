@@ -1,9 +1,11 @@
 import React from 'react';
+import SocialButton from './SocialButton';
 
 function Networks () {
     return (
       <div>
-          Helloy Stas
+        <SocialButton type="Facebook"/>
+        <SocialButton type="Twitter"/>
       </div>
     );
 }
