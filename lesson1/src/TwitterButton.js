@@ -2,6 +2,10 @@ import React from 'react';
 import SocialButton from './SocialButton';
 import './button.css';
 
-const TwitterButton = <SocialButton className="fa fa-facebook" type="Twitter"/>
+function TwitterButton () {
+    return(
+        <SocialButton className="fa fa-twitter" type="Twitter"/>
+    );
+}
 
 export default TwitterButton;

@@ -1,11 +1,13 @@
 import React from 'react';
 import './button.css';
 
-function SocialButton(props) {
+function SocialButton({type, className}) {
 return (
-    <button>
-       <a href="network" className="fa">{props.type}</a>
-    </button>
+    <button className={className} href={type === 'Facebook' 
+    ? 'https://www.facebook.com/' 
+    : type === 'Twitter' 
+        ? 'https://twitter.com'
+        : ''}/>
 );
 }
 
